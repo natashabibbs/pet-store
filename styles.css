@@ -1,0 +1,16 @@
+body {
+	background-color: blue;
+}
+
+#all-pets{
+	background-color: purple;
+	text-align: center;
+}
+
+.individual-pet{
+	border-style: dotted;
+	border-width: 4px;
+}
+h2{
+	color: darkred;
+}
