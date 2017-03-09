@@ -1,5 +1,6 @@
 body {
-	background-color: blue;
+	background-color: teal;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #all-pets{
@@ -8,9 +9,29 @@ body {
 }
 
 .individual-pet{
-	border-style: dotted;
-	border-width: 4px;
+	border-style: groove;
+	border-width: 2px;
+    border-color: green;
 }
-h2{
-	color: darkred;
+button:hover { background-color: yellow;
+}
+button {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: blue; 
+  border-color: green;
+   border-radius: 8px;
+}
+p {
+  background-color: #8ADCAE
+}
+div:hover{
+  background-color: #ECA53A;
+  transition: background-color 2s;
+}
+link{
+  color: #CAC5D7;
+  
+}
+link: visited{
+  color: #B68DAF
 }
